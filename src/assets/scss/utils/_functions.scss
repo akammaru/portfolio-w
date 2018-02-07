@@ -1,0 +1,5 @@
+$browser-contect: 200;
+
+@function em ($pixels, $context: $browser-contect) {
+    @return #{$pixels/$context}em;
+}
