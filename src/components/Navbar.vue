@@ -10,23 +10,7 @@
         <div class="navbar-menu" :class="{ 'is-active': showNav }">
             <div class="navbar-start">
                 <router-link class="navbar-item" to="/" activeClass="active" exact>Home</router-link>
-                <!--todo: deze links verwijderen en omzetten naar routerlinks zodra deze nodig zijn.
-                    op dit moment alleen nog vulling om te zien hoe de style zich gedraagt.-->
-                <a class="navbar-item" href="/path">
-                    Path
-                </a>
-                <a class="navbar-item" href="/blog">
-                    Blog
-                </a>
-                <div class="navbar-item" v-if="loggedIn">
-                    <router-link to="/control_panel" activeClass="active">Control panel</router-link>
-                </div>
-                <div class="navbar-item" v-if="loggedIn">
-                    <a href="#" @click="logoutUser">log out</a>
-                </div>
-                <div class="navbar-item" v-if="!loggedIn">
-                    <router-link to="/login" activeClass="active">Log in</router-link>
-                </div>
+                <router-link class="navbar-item" to="/projects" activeClass="active">Projects</router-link>
 
             </div>
         </div>
@@ -35,7 +19,7 @@
 
 <script>
     export default {
-        data () {
+        data() {
             return {
                 showNav: false,
             }

@@ -1,6 +1,8 @@
 <template>
     <div class="header">
         Portfolio
+        <br/>
+        Wianne van Eijk
     </div>
 </template>
 

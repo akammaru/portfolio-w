@@ -2331,6 +2331,10 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.1"
     readable-stream "^2.0.4"
 
+font-awesome@^4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
+
 for-in@^0.1.3:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-0.1.8.tgz#d8773908e31256109952b1fdb9b3fa867d2775e1"
@@ -5868,6 +5872,23 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
+vue-flex@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/vue-flex/-/vue-flex-2.1.0.tgz#40877882046befcf0eaee5e3543dce74502e1be0"
+  dependencies:
+    vue-functional-data-merge "^2.0.4"
+
+vue-fontawesome@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/vue-fontawesome/-/vue-fontawesome-0.0.2.tgz#b1b9c922652b9fb2d74fe66a28411628502bb3eb"
+  dependencies:
+    font-awesome "^4.7.0"
+    vue "^2.1.8"
+
+vue-functional-data-merge@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/vue-functional-data-merge/-/vue-functional-data-merge-2.0.4.tgz#b045ca57097f31446db6de15c87642b6e88ca7c2"
+
 vue-hot-reload-api@^2.2.0:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.2.4.tgz#683bd1d026c0d3b3c937d5875679e9a87ec6cd8f"
@@ -5889,6 +5910,10 @@ vue-loader@^13.3.0:
     vue-hot-reload-api "^2.2.0"
     vue-style-loader "^3.0.0"
     vue-template-es2015-compiler "^1.6.0"
+
+vue-panel@ericmcdaniel/vue-panel:
+  version "3.1.0"
+  resolved "https://codeload.github.com/ericmcdaniel/vue-panel/tar.gz/684854d859095447dac26ee70db33bf06a1adbad"
 
 vue-router@^3.0.1:
   version "3.0.1"
@@ -5912,9 +5937,13 @@ vue-template-es2015-compiler@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
 
-vue@^2.5.2:
+vue@^2.1.8, vue@^2.5.2:
   version "2.5.13"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.13.tgz#95bd31e20efcf7a7f39239c9aa6787ce8cf578e1"
+
+vuetify@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-1.0.1.tgz#25404ad7ed3de08f7119c6e3fd719ab74f2cfc37"
 
 watchpack@^1.4.0:
   version "1.4.0"

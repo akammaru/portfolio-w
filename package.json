@@ -14,7 +14,11 @@
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-flex": "^2.1.0",
+    "vue-fontawesome": "^0.0.2",
+    "vue-panel": "ericmcdaniel/vue-panel",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
