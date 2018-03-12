@@ -1,37 +1,49 @@
 <template>
-    <v-app class="carocel-container" id="inspire">
-        <v-carousel class="">
-            <v-carousel-item v-for="(item,i) in items" :src="item.src" :key="i" class="carocel-item"></v-carousel-item>
-        </v-carousel>
-    </v-app>
+  <div>
+    <v-carousel class="carousel" hide-controls hide-delimiters>
+      <v-carousel-item v-for="(item,i) in items" :src="item.src" :key="i"></v-carousel-item>
+    </v-carousel>
+  </div>
 </template>
 
+
 <script>
-    export default {
-        data () {
-            return {
-                items: [
-                    {
-                        src: '../../assets/img/cape_bcack.jpg'
-                    },
-                    {
-                        src: '../../assets/img/cape_front.jpg'
-                    },
-                    {
-                        src: '../../assets/img/cape_left.jpg'
-                    },
-                    {
-                        src: '../../assets/img/front_closed'
-                    },
-                    {
-                        src: '../../assets/img/front_closed_clasp.jpg'
-                    }
-                ]
-            }
-        }
-    }
+ export default {
+     data() {
+         return {
+             img: '',
+             items: [
+                 {
+                     src: '/static/img/cape/cape_back.jpg'
+                 },
+                 {
+                     src: '/static/img/cape/cape_front.jpg'
+                 },
+                 {
+                     src: '/static/img/cape/cape_left.jpg'
+                 },
+                 {
+                     src: '/static/img/cape/front_closed.jpg'
+                 }
+             ]
+         }
+     }
+ }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+  .carocel-container {
+    height: 100px;
+    width: 120px;
+  }
 
+  .carocel {
+      height: 100px;
+      width: 120px;
+  }
+
+  .jumbotron_content {
+      height: 150px;
+      width: 100px;
+  }
 </style>
