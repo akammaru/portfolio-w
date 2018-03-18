@@ -1,5 +1,5 @@
 <template>
-    <div class="header">
+    <div class="custom-header">
         Portfolio
         <br/>
         Wianne van Eijk

@@ -1,49 +1,42 @@
 <template>
-  <div>
-    <v-carousel class="carousel" hide-controls hide-delimiters>
-      <v-carousel-item v-for="(item,i) in items" :src="item.src" :key="i"></v-carousel-item>
-    </v-carousel>
-  </div>
+    <div class="carocel-container">
+        <v-carousel hide-controls hide-delimiters :interval="duration">
+            <v-carousel-item v-for="(item,i) in images" :src="item.src" :key="i"></v-carousel-item>
+        </v-carousel>
+    </div>
 </template>
 
 
 <script>
- export default {
-     data() {
-         return {
-             img: '',
-             items: [
-                 {
-                     src: '/static/img/cape/cape_back.jpg'
-                 },
-                 {
-                     src: '/static/img/cape/cape_front.jpg'
-                 },
-                 {
-                     src: '/static/img/cape/cape_left.jpg'
-                 },
-                 {
-                     src: '/static/img/cape/front_closed.jpg'
-                 }
-             ]
-         }
-     }
- }
+    export default {
+        props: {
+            images: null,
+        },
+        data() {
+            return {
+                duration: this.getRandomInt(1000)
+            }
+        },
+        methods: {
+            getRandomInt(max) {
+                return 6000 + Math.floor(Math.random() * Math.floor(max));
+            }
+        }
+    }
 </script>
 
 <style lang="scss" scoped>
-  .carocel-container {
-    height: 100px;
-    width: 120px;
-  }
+    .carocel-container {
+        height: 40%;
+        width: 100%;
+    }
 
-  .carocel {
-      height: 100px;
-      width: 120px;
-  }
+    .carousel {
+        width: 20vh;
+        height: 20vh;
 
-  .jumbotron_content {
-      height: 150px;
-      width: 100px;
-  }
+    }
+
+    .jumbotron_content {
+    }
 </style>

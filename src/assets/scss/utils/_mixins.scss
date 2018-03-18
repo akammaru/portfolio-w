@@ -13,9 +13,14 @@
     box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, .1);
 }
 
-@mixin transition {
-    transition: all 0.2s ease-in-out;
+@mixin transition($seconds, $target)
+{
+    transition: $target ease-in-out $seconds;
+    -webkit-transition: $target ease-in-out $seconds;
+    -moz-transition: $target ease-in-out $seconds;
+    -o-transition: $target ease-in-out $seconds;
 }
+
 
 @mixin bp-medium {
     @media only screen and (min-width: 768px) and (max-width: 1100px) {
