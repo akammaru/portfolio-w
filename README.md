@@ -1,21 +1,6 @@
-# wianne
+#portfolio Wianne. 
 
-> portfolio wianna
+project is running Vue with default webpack.
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## production
+Website has been compliled. Compiled version of the site is found in `/dist`.
