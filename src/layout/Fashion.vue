@@ -5,7 +5,7 @@
                 <v-flex xs7 offset-xs3>
                     <v-expansion-panel popout>
                         <v-expansion-panel-content xs7 offset-xs5>
-                            <div slot="header">
+                            <div class="bold" slot="header">
                                 <carocel :images="white_top"/>
                                 White top & Pleaded skirt
                             </div>
@@ -48,7 +48,7 @@
                             </v-card>
                         </v-expansion-panel-content>
                         <v-expansion-panel-content>
-                            <div slot="header">
+                            <div class="bold" slot="header">
                                 <carocel :images="green"/>
                                 Blue/green dress
                             </div>
@@ -56,9 +56,8 @@
                                 <v-card-text>
                                     <p>
                                         I received a fabric from a friend as a birthday present. It was the fabric that
-                                        I
-                                        used for the top of this dress. I wore this dress during the Christmas season to
-                                        ever Christmas celebration I had. Sometimes even with lights underneath the
+                                        I used for the top of this dress. I wore this dress during the Christmas season to
+                                        every Christmas celebration I had. Sometimes with lights underneath the
                                         skirt.
                                     </p>
                                     <br/>
@@ -99,7 +98,7 @@
                             </v-card>
                         </v-expansion-panel-content>
                         <v-expansion-panel-content>
-                            <div slot="header">
+                            <div class="bold" slot="header">
                                 <carocel :images="backpack"/>
                                 Pikachu backpack
                             </div>

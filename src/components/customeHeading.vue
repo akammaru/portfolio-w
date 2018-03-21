@@ -1,8 +1,6 @@
 <template>
     <div class="custom-header">
-        Portfolio
-        <br/>
-        Wianne van Eijk
+        My work <br/> and me
     </div>
 </template>
 

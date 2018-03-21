@@ -5,7 +5,7 @@
                 <v-flex xs7 offset-xs3>
                     <v-expansion-panel popout>
                         <v-expansion-panel-content xs7 offset-xs5>
-                            <div slot="header">
+                            <div class="bold" slot="header">
                                 <carocel :images="cutting_board"/>
                                 Cutting board
                             </div>
@@ -35,7 +35,7 @@
                             </v-card>
                         </v-expansion-panel-content>
                         <v-expansion-panel-content>
-                            <div slot="header">
+                            <div class="bold" slot="header">
                                 <carocel :images="tool"/>
                                 Snowboard tool
                             </div>
@@ -64,7 +64,7 @@
                             </v-card>
                         </v-expansion-panel-content>
                         <v-expansion-panel-content>
-                            <div slot="header">
+                            <div class="bold" slot="header">
                                 <carocel :images="thea"/>
                                 Thea set
                             </div>
@@ -128,16 +128,16 @@
                 ],
                 tool: [
                     {
-                        src: '/static/img/multitool/multitool 1.jpg'
+                        src: '/static/img/multitool/Multitool-1.jpg'
                     },
                     {
-                        src: '/static/img/multitool/multitool 2.jpg'
+                        src: '/static/img/multitool/Multitool-2.jpg'
                     },
                     {
-                        src: '/static/img/multitool/multitool 3.jpg'
+                        src: '/static/img/multitool/Multitool-3.jpg'
                     },
                     {
-                        src: '/static/img/multitool/multitool 4.jpg'
+                        src: '/static/img/multitool/Multitool-4.jpg'
                     }
                 ],
                 thea: [

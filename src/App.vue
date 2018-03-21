@@ -1,6 +1,6 @@
 <template>
     <div class="app" id="app">
-        <custom-heading />
+        <custom-heading/>
         <navbar />
         <div>
             <router-view></router-view>

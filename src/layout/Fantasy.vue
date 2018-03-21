@@ -5,7 +5,7 @@
                 <v-flex xs7 offset-xs3>
                     <v-expansion-panel popout>
                         <v-expansion-panel-content xs7 offset-xs5>
-                            <div slot="header">
+                            <div class="bold" slot="header">
                                 <carocel :images="white_dress"/>
                                 White dress
                             </div>
@@ -13,11 +13,7 @@
                                 <v-card-text>
                                     <p>
                                         This is a very basic dress that can be paired with a lot of things. I could wear it
-                                        by itself or with accessories.
-                                    </p>
-                                    <br/>
-                                    <p>
-                                        I made this dress without patterns. I used old fabric to figure out how big the
+                                        by itself or with accessories. I made this dress without patterns. I used old fabric to figure out how big the
                                         parts should be to fit me. The poof is made with some tulle underneath. The
                                         dress is closed with a blind zipper and a hook in the back.
                                     </p>
@@ -61,7 +57,7 @@
                             </v-card>
                         </v-expansion-panel-content>
                         <v-expansion-panel-content>
-                            <div slot="header">
+                            <div class="bold" slot="header">
                                 <carocel :images="rangers_apprentice"/>
                                 Rangers apprentice
                             </div>

@@ -5,7 +5,7 @@
                 <v-flex xs7 offset-xs3>
                     <v-expansion-panel popout>
                         <v-expansion-panel-content xs7 offset-xs5>
-                            <div slot="header">
+                            <div class="bold" slot="header">
                                 <carocel :images="summer_dress"/>
                                 Summer dress
                             </div>
@@ -60,7 +60,7 @@
                             </v-card>
                         </v-expansion-panel-content>
                         <v-expansion-panel-content>
-                            <div slot="header">
+                            <div class="bold" slot="header">
                                 <carocel :images="red_dress"/>
                                 Victorian dress
                             </div>

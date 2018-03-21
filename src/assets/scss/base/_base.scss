@@ -11,11 +11,16 @@ h1 {
     font-weight: bold;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .custom-header {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    background-color: $purple;
+    background: $purple;
+    background: linear-gradient(lighten($purple, 15%), $purple);
     color: $white;
 }
 
@@ -54,10 +59,16 @@ h1 {
     }
 }
 
+.navbar-start {
+    margin: 0 auto;
+}
+
 //container for homepage, aligning cv panel and content panel besides each other.
 .main-container {
     color: inherit;
 }
+
+
 
 //spacer to align content neatly in the center
 .spacer {
@@ -70,13 +81,34 @@ h1 {
     text-align: center;
     overflow: scroll;
     color: inherit;
+}
 
+.quote {
+    font-weight: bold;
+
+}
+
+.italic {
+    font-style: italic;
 }
 
 //cv style
 .cv-panel {
     width: 20%;
     color: inherit;
+}
+
+.title-cell {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.portret {
+    border: $green 8px solid;
+}
+
+li {
+    padding-bottom: 15px;
 }
 
 //project style
