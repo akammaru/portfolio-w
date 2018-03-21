@@ -1,6 +1,6 @@
 <template>
     <div class="app" id="app">
-        <custom-header />
+        <custom-heading/>
         <navbar />
         <div>
             <router-view></router-view>
@@ -9,13 +9,13 @@
 </template>
 
 <script>
-    import customHeader from './components/Header'
+    import customHeading from './components/customeHeading'
     import navbar from './components/Navbar'
 
     export default {
         name: 'App',
         components: {
-            customHeader,
+            customHeading,
             navbar,
         }
     }

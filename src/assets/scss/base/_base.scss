@@ -1,37 +1,123 @@
-body {
-    background-color: $white;
+html {
+    background-color: $lightpurple;
+    color: $white;
 }
 
-.header {
+body {
+    color: inherit;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.custom-header {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
-    color: $darkred;
+    background: $purple;
+    background: linear-gradient(lighten($purple, 15%), $purple);
+    color: $white;
 }
 
-.content {
-    width: 80%;
+//navbar styling
+.navbar {
+    background-color: $purple;
+    color: $white;
+
+    .navbar-burger {
+        &:hover, &:active, &:focus {
+            background-color: lighten($purple, 10%);
+            color: inherit;
+        }
+    }
+
+    .navbar-menu {
+        color: inherit;
+        @include transition(1s, all);
+        &.is-active {
+            background-color: lighten($purple, 5%);
+            color: inherit;
+        }
+    }
+
+    .navbar-item {
+        color: inherit;
+        &:hover {
+            background-color: lighten($purple, 15%);
+            color: inherit;
+        }
+
+        &:active, &:focus {
+            background-color: ligten($purple, 20%);
+            color: inherit;
+        }
+    }
+}
+
+.navbar-start {
     margin: 0 auto;
 }
 
-.colom-left {
-    float: left;
+//container for homepage, aligning cv panel and content panel besides each other.
+.main-container {
+    color: inherit;
 }
 
-.colom-right {
-    float: right;
+
+
+//spacer to align content neatly in the center
+.spacer {
+    width: 20%;
+}
+
+//main content
+.content-container {
+    width: 60%;
+    text-align: center;
+    overflow: scroll;
+    color: inherit;
+}
+
+.quote {
+    font-weight: bold;
+
+}
+
+.italic {
+    font-style: italic;
 }
 
 //cv style
 .cv-panel {
     width: 20%;
+    color: inherit;
 }
 
-//carocel style
-.carocel-container {
-
+.title-cell {
+    vertical-align: middle;
+    padding-right: 10px;
 }
 
-.carocel-item {
+.portret {
+    border: $green 8px solid;
+}
 
+li {
+    padding-bottom: 15px;
+}
+
+//project style
+.expansion-panel__container {
+    background-color: $green;
+    margin: 2%;
+    color: $darkgreen;
+}
+.card {
+    background-color: inherit;
+    color: $darkgreen;
 }
