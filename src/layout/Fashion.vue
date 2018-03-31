@@ -44,12 +44,18 @@
                                         zipper beneath
                                         the waistband and two push buttons on the waistband.
                                     </p>
+                                    <span>
+                                        &nbsp;
+                                    </span>
+                                    <div>
+                                        <lightbox :images="white_top"></lightbox>
+                                    </div>
                                 </v-card-text>
                             </v-card>
                         </v-expansion-panel-content>
                         <v-expansion-panel-content>
                             <div class="bold" slot="header">
-                                <carocel :images="green"/>
+                                <carocel :images="green_dress"/>
                                 Blue/green dress
                             </div>
                             <v-card>
@@ -94,6 +100,12 @@
                                         made
                                         from a cotton fabric and the skirt is a stretch fabric.
                                     </p>
+                                    <span>
+                                        &nbsp;
+                                    </span>
+                                    <div>
+                                        <lightbox :images="green_dress"></lightbox>
+                                    </div>
                                 </v-card-text>
                             </v-card>
                         </v-expansion-panel-content>
@@ -124,6 +136,12 @@
                                         All of the fabrics are cotton. Some have stretch, some don’t. I’ve also used plastic
                                         bags for the layer in between to make the backpack more waterproof.
                                     </p>
+                                    <span>
+                                        &nbsp;
+                                    </span>
+                                    <div>
+                                        <lightbox :images="backpack"></lightbox>
+                                    </div>
                                 </v-card-text>
                             </v-card>
                         </v-expansion-panel-content>
@@ -158,18 +176,18 @@
                         src: '/static/img/black_skirt/Zwarte rok 5.jpg'
                     }
                 ],
-                green: [
+                green_dress: [
                     {
-                        src: '/static/img/green_dress/Groenejurk1.jpg'
+                        src: '/static/img/green_dress/Groene jurk 1.jpg'
                     },
                     {
-                        src: '/static/img/green_dress/Groenejurk2.jpg'
+                        src: '/static/img/green_dress/Groene jurk 2.jpg'
                     },
                     {
-                        src: '/static/img/green_dress/Groenejurk3.jpg'
+                        src: '/static/img/green_dress/Groene jurk 3.jpg'
                     },
                     {
-                        src: '/static/img/green_dress/Groenejurk4.jpg'
+                        src: '/static/img/green_dress/Groene jurk 4.jpg'
                     }
                 ],
                 backpack: [

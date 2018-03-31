@@ -53,6 +53,12 @@
                                         The blue corsets compliment the dress in a complete different way. It stands out just
                                         enough to be seen but is not breaking up the dress.
                                     </p>
+                                    <span>
+                                        &nbsp;
+                                    </span>
+                                    <div>
+                                        <lightbox :images="white_dress"></lightbox>
+                                    </div>
                                 </v-card-text>
                             </v-card>
                         </v-expansion-panel-content>
@@ -95,6 +101,12 @@
                                         The cape is made from a heavy fabric that is like wool on the inside and like fleece
                                         on the outside. I used a sweater to make a pattern from the body and the hood.
                                     </p>
+                                    <span>
+                                        &nbsp;
+                                    </span>
+                                    <div>
+                                        <lightbox :images="rangers_apprentice"></lightbox>
+                                    </div>
                                 </v-card-text>
                             </v-card>
                         </v-expansion-panel-content>

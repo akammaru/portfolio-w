@@ -31,6 +31,12 @@
                                         everything but also had the responsibility for the flyer. This turned out very well. I am
                                         very happy with the results of this project.
                                     </p>
+                                    <span>
+                                        &nbsp;
+                                    </span>
+                                    <div>
+                                        <lightbox :images="cutting_board"></lightbox>
+                                    </div>
                                 </v-card-text>
                             </v-card>
                         </v-expansion-panel-content>
@@ -60,6 +66,12 @@
                                         The model on the right side is a 3D-printed model of my design.
                                         This project was again fictional; the brand was not involved.
                                     </p>
+                                    <span>
+                                        &nbsp;
+                                    </span>
+                                    <div>
+                                        <lightbox :images="tool"></lightbox>
+                                    </div>
                                 </v-card-text>
                             </v-card>
                         </v-expansion-panel-content>
@@ -95,6 +107,12 @@
                                         brought the whole set together. I am very happy with the result and I am very happy
                                         for really making this project mine.
                                     </p>
+                                    <span>
+                                        &nbsp;
+                                    </span>
+                                    <div>
+                                        <lightbox :images="thea"></lightbox>
+                                    </div>
                                 </v-card-text>
                             </v-card>
                         </v-expansion-panel-content>

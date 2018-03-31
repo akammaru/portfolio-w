@@ -13,6 +13,7 @@
     "bulma": "^0.6.2",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
+    "vlightbox": "^2.0.2",
     "vue": "^2.5.2",
     "vue-flex": "^2.1.0",
     "vue-fontawesome": "^0.0.2",

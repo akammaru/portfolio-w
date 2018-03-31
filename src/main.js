@@ -5,6 +5,7 @@ import App from './App'
 import Vuetify from 'vuetify'
 import router from './router'
 import VueFlex from "vue-flex"
+import vlightbox from 'vlightbox'
 import "vue-flex/dist/vue-flex.css"
 import 'vuetify/dist/vuetify.min.css'
 
@@ -16,6 +17,7 @@ require('./assets/scss/main.scss')
 
 Vue.use(VueFlex)
 Vue.use(Vuetify)
+Vue.use(vlightbox)
 Vue.use(require('vue-panel'))
 
 Vue.config.productionTip = false

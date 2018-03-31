@@ -56,12 +56,18 @@
                                         but I haven’t been able to find or make a stays yet. The hat is bought for this
                                         costume.
                                     </p>
+                                    <span>
+                                        &nbsp;
+                                    </span>
+                                    <div>
+                                        <lightbox :images="summer_dress"></lightbox>
+                                    </div>
                                 </v-card-text>
                             </v-card>
                         </v-expansion-panel-content>
                         <v-expansion-panel-content>
                             <div class="bold" slot="header">
-                                <carocel :images="red_dress"/>
+                                <carocel :images="victorian_dress"/>
                                 Victorian dress
                             </div>
                             <v-card>
@@ -127,6 +133,12 @@
                                         lace myself.
                                         The fabrics I’m using are both made of cotton.
                                     </p>
+                                    <span>
+                                        &nbsp;
+                                    </span>
+                                    <div>
+                                        <lightbox :images="victorian_dress"></lightbox>
+                                    </div>
                                 </v-card-text>
                             </v-card>
                         </v-expansion-panel-content>
@@ -191,7 +203,7 @@
                         src: '/static/img/18th_summer_dress/18e eeuwse jurk 15.jpg'
                     }
                 ],
-                red_dress: [
+                victorian_dress: [
                     {
                         src: '/static/img/victorian_dress/Victoriaans project 1.jpg'
                     },
