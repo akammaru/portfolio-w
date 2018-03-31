@@ -29,6 +29,12 @@
                                         start from. The cape I made because I thought it would be useful to have one in case
                                         of bad weather. I thought they would have capes in the Middle Ages for that too.
                                     </p>
+                                    <span>
+                                        &nbsp;
+                                    </span>
+                                    <div>
+                                        <lightbox :images="blue_dress"></lightbox>
+                                    </div>
                                 </v-card-text>
                             </v-card>
                         </v-expansion-panel-content>
@@ -62,6 +68,12 @@
                                         and off a lot easier.
 
                                     </p>
+                                    <span>
+                                        &nbsp;
+                                    </span>
+                                    <div>
+                                        <lightbox :images="red_dress"></lightbox>
+                                    </div>
                                 </v-card-text>
                             </v-card>
                         </v-expansion-panel-content>
@@ -89,6 +101,12 @@
                                         thought it was fun to try to work with boning. It was definitely a challenge but it was a
                                         fun one and I think I succeeded.
                                     </p>
+                                    <span>
+                                        &nbsp;
+                                    </span>
+                                    <div>
+                                        <lightbox :images="kirtle"></lightbox>
+                                    </div>
                                 </v-card-text>
                             </v-card>
                         </v-expansion-panel-content>
@@ -108,31 +126,31 @@
             return {
                 blue_dress: [
                     {
-                        src: '/static/img/blue_dress/Blauwejurk1.jpg'
+                        src: '/static/img/blue_dress/Blauwe jurk 1.jpg'
                     },
                     {
-                        src: '/static/img/blue_dress/Blauwejurk2.jpg'
+                        src: '/static/img/blue_dress/Blauwe jurk 2.jpg'
                     },
                     {
-                        src: '/static/img/blue_dress/Blauwejurk3.jpg'
+                        src: '/static/img/blue_dress/Blauwe jurk 3.jpg'
                     },
                     {
-                        src: '/static/img/blue_dress/Blauwejurk4.jpg'
+                        src: '/static/img/blue_dress/Blauwe jurk 4.jpg'
                     },
                     {
-                        src: '/static/img/blue_dress/Blauwejurk5.jpg'
+                        src: '/static/img/blue_dress/Blauwe jurk 5.jpg'
                     },
                     {
-                        src: '/static/img/blue_dress/Blauwejurk6.jpg'
+                        src: '/static/img/blue_dress/Blauwe jurk 6.jpg'
                     },
                     {
-                        src: '/static/img/blue_dress/Blauwejurk7.jpg'
+                        src: '/static/img/blue_dress/Blauwe jurk 7.jpg'
                     },
                     {
-                        src: '/static/img/blue_dress/Blauwejurk8.jpg'
+                        src: '/static/img/blue_dress/Blauwe jurk 8.jpg'
                     },
                     {
-                        src: '/static/img/blue_dress/Blauwejurk9.jpg'
+                        src: '/static/img/blue_dress/Blauwe jurk 9.jpg'
                     }
                 ],
                 red_dress: [
